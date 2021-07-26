@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
+        <title>Build</title>
+        <meta name="description" content="SynapseOS - simple 64x os" />
+        <meta name="keywords" content="SynapseOS, free, osdev, open-sourse" />
+        <link rel="shortcut icon" sizes="128x128" type="image/png" href="../img/favicon.png"/>
+        <link rel="shortcut icon" sizes="32x32" type="image/png" href="../img/favicon32.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+      </head>
+    <body>
+        <h1>
+            <a href="../">SynapseOS</a>/<a href="">doc</a>/build
+        </h1>
+
+        <h2>Build guide</h2>
+        <div>
+            <li><a href="#windows">Windows</a></li>
+            <li><a href="#linux">Linux</a></li>
+        </div>
+        
+        <h2 id="windows">Windows</h2>
+        <article>
+            <p>
+                <strong>You need wsl or emulator to use grub!</strong>
+            </p>
+
+            <p style="font-size: large;"><strong>Install:</strong></p>
+            <div>
+                <li>i686-elf-tools for windows</li>
+                <li>Fasm compiler</li>
+                <li>Install Ubuntu on WSL</li>
+                <li>Last stable source code of SynapseOS</li>
+            </div>
+
+            <p style="font-size: large;"><strong>Install grub using WSL:</strong></p>
+            <div>
+                <li>sudo apt-get update</li> 
+                <li>sudo apt-get install grub-common</li> 
+                <li>sudo apt-get install xorriso</li> 
+                <li>sudo apt-get install grub-pc-bin</li> 
+            </div>
+
+            <p style="font-size: large;"><strong>Compile</strong></p>
+            <div>
+                <li>Add Fasm and i686-elf-tools to %PATH%</li> 
+                <li>Run build.bat</li> 
+            </div>
+            
+        </article>
+        <h2 id="linux">linux</h2>
+        <article>
+            <p style="font-size: large;"><strong>Install:</strong></p>
+            <div>
+                <li>i686-elf-tools for Linux</li>
+                <li>Fasm compiler</li>
+                <li>Last stable source code of SynapseOS</li>
+            </div>
+
+            <p style="font-size: large;"><strong>Install grub and fasm:</strong></p>
+            <div>
+                <li>sudo apt-get update</li> 
+                <li>sudo apt-get install grub-common</li> 
+                <li>sudo apt-get install fasm</li> 
+                <li>sudo apt-get install xorriso</li> 
+                <li>sudo apt-get install grub-pc-bin</li> 
+            </div>
+
+            <p style="font-size: large;"><strong>Compile</strong></p>
+            <div>
+                <li>Add Fasm and i686-elf-tools to %PATH%</li> 
+                <li>Run build.sh in the "/ src / kernel" folder</li> 
+            </div>
+            
+        </article>
+    </body>
+</html>
