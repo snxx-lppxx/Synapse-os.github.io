@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    color: rgb(4, 97, 204);
+    
+}
+body{
+    transition: 1600ms;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
