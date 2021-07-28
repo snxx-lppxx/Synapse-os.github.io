@@ -16,15 +16,59 @@
 <url>
   <loc>https://synapse-os.github.io/history</loc>
   <priority>0.80</priority>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0005/boot.PNG</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0005/help.PNG</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0005/test.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0004/test.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0003/boot_screen.PNG</image:loc>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0003/input.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0003/qemu.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0002/booted.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0002/input.PNG</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0001/test.PNG</image:loc>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0000/test.png</image:loc>
+    </image:image>
+    
 </url>
+
 <url>
   <loc>https://synapse-os.github.io/doc/</loc>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://synapse-os.github.io/doc/build</loc>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>
