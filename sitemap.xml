@@ -9,10 +9,12 @@
   <loc>https://synapse-os.github.io/</loc>
   <priority>1.00</priority>
 </url>
+
 <url>
   <loc>https://synapse-os.github.io/downloads</loc>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://synapse-os.github.io/history</loc>
   <priority>0.80</priority>
@@ -58,7 +60,6 @@
     <image:image>
       <image:loc>https://Synapse-os.github.io/img/releases/0000/test.png</image:loc>
     </image:image>
-    
 </url>
 
 <url>
