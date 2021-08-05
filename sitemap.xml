@@ -20,6 +20,22 @@
   <priority>0.80</priority>
 
     <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0006/ascii.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0006/help.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0006/test.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0006/theme.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://Synapse-os.github.io/img/releases/0006/start.png</image:loc>
+    </image:image>
+
+    <image:image>
       <image:loc>https://Synapse-os.github.io/img/releases/0005/boot.PNG</image:loc>
     </image:image>
     <image:image>
