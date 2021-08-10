@@ -7,14 +7,7 @@ body{
     transition: 1600ms;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: rgb(0, 183, 255);
-  text-align: center;
-}
+
 
 /* Боковое навигационное меню */
 .sidebar {
@@ -74,3 +67,14 @@ footer {
 		float: none;
 	  }
 	}
+
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 183, 255);
+    text-align: center;
+  }
+  
