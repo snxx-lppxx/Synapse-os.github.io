@@ -50,7 +50,7 @@ footer {
   }
 
   /* Содержание страницы. Значение свойства margin-left должно соответствовать значению свойства width боковой панели */
-	div.content {
+	.content {
 	  margin-left: 200px;
 	  padding: 1px 16px;
 	  height: 1000px;
@@ -64,7 +64,7 @@ footer {
 		position: relative;
 	  }
 	  .sidebar a {float: left;}
-	  div.content {margin-left: 0;}
+	  .content {margin-left: 0;}
 	}
 
 	/* На экранах размером менее 400 пикселей панель отображать вертикально, а не горизонтально */
