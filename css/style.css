@@ -7,3 +7,43 @@ body{
     transition: 1600ms;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+/* Боковое навигационное меню */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  /* Сайдбар ссылки */
+  .sidebar a {
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+  }
+
+  /* Активная/текущая ссылка */
+  .sidebar a.active {
+    background-color: #57007f;
+    color: white;
+  }
+
+  /* Ссылки при наведении мыши */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
