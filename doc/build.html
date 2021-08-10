@@ -14,74 +14,84 @@
         <link rel="stylesheet" href="../css/style.css">
       </head>
     <body>
-        <h1>
-            <a href="../">SynapseOS</a>/<a href="../doc">doc</a>/build
-        </h1>
+        <div class="sidebar">
+			<a class="active" href="https://Synapse-OS.github.io">Main</a>
+			<a href="https://Synapse-OS.github.io/history">Releases History</a>
+			<a href="https://github.com/Synapse-OS/SynapseOS/releases">Download</a>
+		</div>
 
-        <h2>Build guide</h2>
-        <div>
-            <li><a href="#windows">Windows</a></li>
-            <li><a href="#linux">Linux</a></li>
+        <div class="content">
+            <h1>
+                <a href="../">SynapseOS</a>/<a href="../doc">doc</a>/build
+            </h1>
+    
+            <h2>Build guide</h2>
+            <div>
+                <li><a href="#windows">Windows</a></li>
+                <li><a href="#linux">Linux</a></li>
+            </div>
+            
+            <h2 id="windows">Windows</h2>
+            <article>
+                <p>
+                    <strong>You need wsl or emulator to use grub!</strong>
+                </p>
+    
+                <p style="font-size: large;"><strong>Install:</strong></p>
+                <div>
+                    <li>i686-elf-tools for windows</li>
+                    <li>Fasm compiler</li>
+                    <li>Install Ubuntu on WSL</li>
+                    <li>Last stable source code of SynapseOS</li>
+                </div>
+    
+                <p style="font-size: large;"><strong>Install grub using WSL:</strong></p>
+                <div>
+                    <li>sudo apt-get update</li> 
+                    <li>sudo apt-get install grub-common</li> 
+                    <li>sudo apt-get install xorriso</li> 
+                    <li>sudo apt-get install grub-pc-bin</li> 
+                </div>
+    
+                <p style="font-size: large;"><strong>Compile</strong></p>
+                <div>
+                    <li>Add Fasm and i686-elf-tools to %PATH%</li> 
+                    <li>Run build.bat</li> 
+                </div>
+                
+            </article>
+            <h2 id="linux">linux</h2>
+            <article>
+                <p style="font-size: large;"><strong>Install:</strong></p>
+                <div>
+                    <li>i686-elf-tools for Linux</li>
+                    <li>Fasm compiler</li>
+                    <li>Last stable source code of SynapseOS</li>
+                </div>
+    
+                <p style="font-size: large;"><strong>Install grub and fasm:</strong></p>
+                <div>
+                    <li>sudo apt-get update</li> 
+                    <li>sudo apt-get install grub-common</li> 
+                    <li>sudo apt-get install fasm</li> 
+                    <li>sudo apt-get install xorriso</li> 
+                    <li>sudo apt-get install grub-pc-bin</li> 
+                </div>
+    
+                <p style="font-size: large;"><strong>Compile</strong></p>
+                <div>
+                    <li>Add Fasm and i686-elf-tools to %PATH%</li> 
+                    <li>Run build.sh in the "/ src / kernel" folder</li> 
+                </div>
+                
+            </article>
+    
+            <footer>
+                <a href="https://Synapse-OS.github.io/about#team">&copy;SynapseOS team</a> 2021
+                <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="ddc0bb9085c43c779c80f4a7001dd42f|5|ip|1|rgb(255, 255, 255);|rgb(215, 215, 215);|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+            </footer>
         </div>
         
-        <h2 id="windows">Windows</h2>
-        <article>
-            <p>
-                <strong>You need wsl or emulator to use grub!</strong>
-            </p>
-
-            <p style="font-size: large;"><strong>Install:</strong></p>
-            <div>
-                <li>i686-elf-tools for windows</li>
-                <li>Fasm compiler</li>
-                <li>Install Ubuntu on WSL</li>
-                <li>Last stable source code of SynapseOS</li>
-            </div>
-
-            <p style="font-size: large;"><strong>Install grub using WSL:</strong></p>
-            <div>
-                <li>sudo apt-get update</li> 
-                <li>sudo apt-get install grub-common</li> 
-                <li>sudo apt-get install xorriso</li> 
-                <li>sudo apt-get install grub-pc-bin</li> 
-            </div>
-
-            <p style="font-size: large;"><strong>Compile</strong></p>
-            <div>
-                <li>Add Fasm and i686-elf-tools to %PATH%</li> 
-                <li>Run build.bat</li> 
-            </div>
-            
-        </article>
-        <h2 id="linux">linux</h2>
-        <article>
-            <p style="font-size: large;"><strong>Install:</strong></p>
-            <div>
-                <li>i686-elf-tools for Linux</li>
-                <li>Fasm compiler</li>
-                <li>Last stable source code of SynapseOS</li>
-            </div>
-
-            <p style="font-size: large;"><strong>Install grub and fasm:</strong></p>
-            <div>
-                <li>sudo apt-get update</li> 
-                <li>sudo apt-get install grub-common</li> 
-                <li>sudo apt-get install fasm</li> 
-                <li>sudo apt-get install xorriso</li> 
-                <li>sudo apt-get install grub-pc-bin</li> 
-            </div>
-
-            <p style="font-size: large;"><strong>Compile</strong></p>
-            <div>
-                <li>Add Fasm and i686-elf-tools to %PATH%</li> 
-                <li>Run build.sh in the "/ src / kernel" folder</li> 
-            </div>
-            
-        </article>
-
-        <footer>
-            <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="ddc0bb9085c43c779c80f4a7001dd42f|5|ip|1|rgb(255, 255, 255);|rgb(215, 215, 215);|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-        </footer>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
             (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
