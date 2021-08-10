@@ -3,8 +3,8 @@
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
-        <title>404</title>
-        <meta name="description" content="SynapseOS - simple 64x os" />
+        <title>About</title>
+        <meta name="description" content="About SynapseOS info" />
         <meta name="keywords" content="SynapseOS, free, osdev, open-sourse" />
         <link rel="shortcut icon" sizes="128x128" type="image/png" href="https://Synapse-OS.github.io/img/favicon.png"/>
         <link rel="shortcut icon" sizes="32x32" type="image/png" href="https://Synapse-OS.github.io/img/favicon32.png"/>
@@ -13,6 +13,86 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://Synapse-OS.github.io/css/style.css">
       </head>
+
+<style>
+    .columns {
+        box-sizing: border-box;
+    }
+
+    /* Create three columns of equal width */
+    .columns {
+        float: left;
+        width: 33.3%;
+        padding: 8px;
+    }
+
+    /* Style the list */
+    .price {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    /* Add shadows on hover */
+    .price:hover {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    }
+
+    /* Pricing header */
+    .price .header {
+        background-color: #111;
+        color: white;
+        font-size: 25px;
+    }
+
+    /* List items */
+    .price li {
+        border-bottom: 1px solid #eee;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Grey list item */
+    .price .grey {
+        background-color: #eee;
+        font-size: 20px;
+    }
+
+    /* Green list item */
+    .price .green {
+        background-color: #4CAF50;
+        font-size: 20px;
+    }
+
+    /* Green list item */
+    .price .yellow {
+        background-color: #fffb00;
+        font-size: 20px;
+    }
+
+    /* The "Sign Up" button */
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    /* Change the width of the three columns to 100%
+    (to stack horizontally on small screens) */
+    @media only screen and (max-width: 600px) {
+        .columns {
+            width: 100%;
+        }
+    }
+</style>
+
     <body>
         <div class="sidebar">
 			<a href="https://Synapse-OS.github.io">Main</a>
@@ -25,8 +105,70 @@
             <h1>
                 <a href="../">SynapseOS</a>/<a href="">About</a>
             </h1>
-            <p>Wait! We building this page.</p>
-            <a href="https://Synapse-OS.github.io">Main page</a>
+            
+            <h2 id="team">Team</h2>
+            <p><i>The SynapseOS team consists of enthusiasts from different countries and cities. 
+                But we are working together to create a great operating system for users, developers and businesses.
+            </i></p>
+            <p>The author of the idea and the main developer is <a href ="https://0nera.github.io">Arturovich Aren Elchinyan</a>.</p>
+            <p><a href="https://github.com/rgimad">Rustem Gimadutdinov</a>. He helped with literature, wrote a lot of code and started the project.</p>
+            <p><a href="https://github.com/COTULARS">Anton Bely</a> helps with the core and also made a great contribution to the development.</p>
+            <p><a href="https://github.com/ThesisNotIncluded">Timur Vafin</a>. He makes edits in the design of the code and made the first distribution kit of SynapseOS.</p>
+            <p><a href="https://github.com/exboot">Alexey Rogozinnikov</a>. Created a license for SynapsOS. At the moment, the license is not in use.</p>
+            <p>If you would like to join our friendly team, please contact us:</p>
+            <div>
+                <li><a href="https://t.me/synapseos">Telegram channel</a></li>
+                <li><a href="https://t.me/joinchat/EijxEx3sw5wwOGYy">Telegramm chat</a></li>
+                <li><a href="https://discord.gg/3WaxpRN4eg">Discord</a></li>
+                <li><a href="https://vk.com/public206085257">VK</a></li>
+                <li><a href="https://www.reddit.com/user/SynapseOS">Reddit</a></li>
+            </div>
+
+            <h2 id ="price">Price list</h2>
+                        
+            <div class="columns">
+                <ul class="price">
+                  <li class="header">User</li>
+                  <li class="green">Free</li>
+                  <li>Licensed version for one user</li>
+                  <li>Full access to basic functions</li>
+                  <li>-</li>
+                  <li>-</li>
+                  <li>-</li>
+                  <li class="grey"><a href="#" class="button">Download</a></li>
+                </ul>
+            </div>
+
+            
+
+            <!--
+<div class="columns">
+                <ul class="price">
+                  <li class="header">Sponsor</li>
+                  <li class="green">From 5 dollars</li>
+                  <li>Licensed version for 5 users</li>
+                  <li>Full access to basic functions</li>
+                  <li></li>
+                  <li class="yellow"><a href = "#souvenir">Souvenir</a> from the SynapseOS team</li>
+                  <li class="grey"><a href="#" class="button">To sponsor</a></li>
+                </ul>
+            </div>
+<div class="columns">
+                <ul class="price">
+                  <li class="header">Business</li>
+                  <li class="green">1$ for 200 activators</li>
+                  <li class="green">5$ for 1000 activators</li>
+                  <li class="green">25$ for 5000 activators</li>
+                  <li>Licensed version for one user</li>
+                  <li>Full access to basic functions</li>
+                  <li>Full access to basic functions</li>
+                  <li class="grey"><a href="#" class="button">Buy</a></li>
+                </ul>
+            </div>
+            -->
+            
+
+
 
             <footer>
                 <a href="https://Synapse-OS.github.io/about#team">&copy;SynapseOS team</a> 2021
